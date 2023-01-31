@@ -2,8 +2,6 @@ def study_schedule(permanence_period, target_time):
     """Faça o código aqui."""
     if target_time is None:
         return None
-    if permanence_period is None:
-        return None
     contador = {}
     for entrada, saida in permanence_period:
         if entrada <= target_time <= saida:
@@ -13,3 +11,4 @@ def study_schedule(permanence_period, target_time):
                 contador[target_time] = 1
     return max(contador, key=contador.get)
 # raise NotImplementedError
+raise NotImplementedError
