@@ -11,3 +11,4 @@ def study_schedule(permanence_period, target_time):
                 contador[target_time] = 1
     return max(contador, key=contador.get)
 raise NotImplementedError
+
