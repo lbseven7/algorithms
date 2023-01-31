@@ -1,6 +1,6 @@
 def study_schedule(permanence_period, target_time):
     """Faça o código aqui."""
-    if target_time is None or permanence_period is None:
+    if target_time or permanence_period != 'number':
         return None
     contador = {}
     for entrada, saida in permanence_period:
