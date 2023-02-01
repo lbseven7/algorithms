@@ -27,15 +27,16 @@ def merge(numbers, start, mid, end):
             numbers[general_index] = right[right_index]
             right_index = right_index + 1
 
+# Ajuda do @Arlisson
 def is_anagram(first_string, second_string):
     primeira_palavra = [*first_string.lower()]
     segunda_palavra = [*second_string.lower()]
     merge_sort(primeira_palavra)
     merge_sort(segunda_palavra)
-    
+
     first_string = ''.join(primeira_palavra)
     second_string = ''.join(segunda_palavra)
-    
+
     if not first_string or not second_string:
         return (first_string, second_string, False)
 
