@@ -26,7 +26,7 @@ Clone o repositório:
 Use o comando: git@github.com:lbseven7/algorithms.git
 
 Entre na pasta do repositório que você acabou de clonar:
-cd algorithms
+cd project-algorithms
 
 Crie o ambiente virtual para o projeto:
 python3 -m venv .venv && source .venv/bin/activate
